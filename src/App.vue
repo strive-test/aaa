@@ -1,7 +1,7 @@
 <template>
   <div>基本模板！
-    <router-link to="/home">home</router-link>
-    <router-link to="/order">order</router-link>
+    <router-link to="/test/home">home</router-link>
+    <router-link to="/test/order">order</router-link>
     <router-view></router-view>
   </div>
 </template>
