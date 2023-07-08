@@ -6,15 +6,15 @@ const routes=[
   {
     path:'/',
     name:'root',
-    redirect:'/home'
+    redirect:'/test/home'
   },
   {
-    path:'/home',
+    path:'/test/home',
     name:'home',
     component:Home
   },
   {
-    path:'/order',
+    path:'/test/order',
     name:'order',
     component:Order
   }
